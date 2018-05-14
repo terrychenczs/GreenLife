@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.czs.dao.mapper.UserMapper">
+	<resultMap id="User_resultMap" type="com.czs.entity.User">
+		<result column="id" property="id"/>
+		<result column="username" property="username" />
+		<result column="work_no" property="workNo" />
+		<result column="salt" property="salt" />
+		<result column="password" property="password" />
+		<result column="age" property="age" jdbcType="INTEGER"/>
+		<result column="state" property="state" />
+		<result column="org_id" property="orgId"/>
+		<result column="pic" property="pic"/>
+		<result column="phone" property="phone"/>
+		<result column="address" property="address"/>
+		<result column="email" property="email"/>
+		<result column="percent" property="percent"/>
+	</resultMap>
+	<sql id="baseColumn">id,username,work_no,salt,password,age,state,org_id,pic,phone,address,email,percent</sql>
+	<!--增加-->
+	<insert id="save" parameterType="com.czs.entity.User" keyColumn="id" useGeneratedKeys="true" keyProperty="id">
+	insert into sys_user(id,username,work_no,salt,password,age,state,org_id,pic,phone,address,email,percent) values (#{id},#{username},#{workNo},#{salt},#{password},#{age},#{state},#{orgId},#{pic},#{phone},#{address},#{email},#{percent})
+	<selectKey resultType="java.lang.Long" order="AFTER" keyProperty="id"> 
+        SELECT LAST_INSERT_ID() 
+    </selectKey>
+	</insert>
+	<!-- 查询记录 -->
+	<select id="find" parameterType="com.czs.pojo.UserParams" resultMap="User_resultMap">
+	select <include refid="baseColumn"/> from sys_user
+	<include refid="searchSql"/>
+	<if test="orderBy!=null">${orderBy}</if>
+	<if test="start!=null and rows!=null">
+             limit #{start},#{rows}
+       	</if>
+	</select>
+	<sql id="searchSql">
+<!-- 	<where> -->
+	<trim prefix="WHERE" prefixOverrides="AND |OR ">
+		<if test="username!=null and username!=''">
+		username like concat(#{username},'%')
+		</if>
+		<if test="workNo!=null and workNo!=''">
+		and work_no=#{workNo}
+		</if>
+		<if test="age!=null">
+		and age=#{age}
+		</if>
+		<if test="orgId!=null">
+		and org_id=#{orgId}
+		</if>
+		<if test="pic!=null and pic!=''">
+		and pic=#{pic}
+		</if>
+	</trim>
+	</sql>
+</mapper>

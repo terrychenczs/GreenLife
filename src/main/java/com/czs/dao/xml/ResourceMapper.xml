@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.czs.dao.mapper.ResourceMapper">
+	<resultMap id="Resource_resultMap" type="com.czs.entity.Resource">
+		<result column="id" property="id"/>
+		<result column="name" property="name" />
+		<result column="type" property="type" />
+		<result column="priority" property="priority" />
+		<result column="pid" property="pid" />
+		<result column="permission" property="permission"/>
+		<result column="status" property="status" />
+		<result column="url" property="url"/>
+		<result column="out_url" property="outUrl"/>
+		<result column="pic" property="pic"/>
+	</resultMap>
+	<sql id="baseColumn">id,name,type,leaf,priority,pid,permission,status,url,out_url,pic</sql>
+	<!--增加-->
+	<insert id="save" parameterType="com.czs.entity.Resource" keyColumn="id" useGeneratedKeys="true" keyProperty="id">
+	insert into sys_resource(id,name,type,leaf,priority,pid,permission,status,url,out_url,pic) values (#{id},#{name},#{type},#{leaf},#{priority},#{pid},#{permission},#{status},#{url},#{outUrl},#{pic})
+	</insert>
+	<select id="loadPermissionsByUsername" parameterType="java.lang.String" resultMap="Resource_resultMap">
+	SELECT sres.* from sys_user su,sys_user_role sur,sys_role sr,sys_role_resource srr,sys_resource sres WHERE su.username=#{name} and su.id=sur.user_id and sr.id=sur.role_id AND srr.role_id=sr.id and srr.resource_id=sres.id
+	</select>
+</mapper>
