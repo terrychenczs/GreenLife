@@ -74,12 +74,14 @@ public void UserCreate(){
 @RequiresPermissions("test:permission_1")  
 @RequestMapping("/testAnnotation")  
 public String testAnnotation(){  
-    return "/index";  
+
+    return "/index";
 }  
   
 @RequiresPermissions("test:nopermission")  
 @RequestMapping("/testAnnotation1")  
 public String testAnnotation1(){  
-    return "index";  
+
+    return "index";
 }  
 }

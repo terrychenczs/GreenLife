@@ -89,15 +89,20 @@ var SnippetLogin = function () {
 
             form.ajaxSubmit({
                 type:"post",
+                dataType:"json",
+                async:false,
                 url: $('#Userlogin').attr('action'),
-                success: function (response, status, xhr, $form) {
+                success: function (msg) {
+                    console.log(msg);
                     // similate 2s delay
                     setTimeout(function () {
                         btn.removeClass('m-loader m-loader--right m-loader--light').attr('disabled', false);
-                        showErrorMsg(form, 'danger', '用户名或密码不正确。请重新输入。');
+                        showErrorMsg(form, 'danger', msg.msg);
                     }, 2000);
+                    setTimeout(window.open("admin/index?id="+msg.code),2000);
                 }
             });
+
         });
     }
 
