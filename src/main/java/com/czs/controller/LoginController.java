@@ -74,22 +74,26 @@ public class LoginController {
             listObject.setCode(StatusCode.USER_NOT_EXIST);
             listObject.setMsg("您输入的用户名不存在！");
             ResponseUtils.renderJson(response, JsonUtils.toJson(listObject));
+            return;
         } catch (IncorrectCredentialsException ex) {// 用户名密码不匹配
             ListObject listObject = new ListObject();
             listObject.setCode(StatusCode.USERNAME_AND_PASSWORD_MISMATCH);
             listObject.setMsg("用户名密码不匹配 ！");
             ResponseUtils.renderJson(response, JsonUtils.toJson(listObject));
+            return;
         } catch(ExcessiveAttemptsException e){
             ListObject listObject = new ListObject();
             listObject.setCode(StatusCode.USERNAME_LOCKED);
             listObject.setMsg("密码错误次数已超五次，账号锁定1小时！");
             ResponseUtils.renderJson(response, JsonUtils.toJson(listObject));
+            return;
         } catch (AuthenticationException ex) {// 其他的登录错误
             ListObject listObject = new ListObject();
             listObject.setCode(StatusCode.CODE_ERROR_PROGRAM);
             listObject.setMsg("其他的登录错误  ！");
             ResponseUtils.renderJson(response, JsonUtils.toJson(listObject));
             ex.printStackTrace();
+            return;
         }  
         // 验证是否成功登录的方法
         if (currentUser.isAuthenticated()) {

@@ -25,8 +25,9 @@ public class UserController {
     @Resource
     private UserService userService;
 
+    //创建一个新用户
     @RequestMapping("/createUser")
-    public String createUser(HttpServletRequest request, Model model) {
+    public void createUser(HttpServletRequest request,HttpServletResponse response) {
         User user = new User();
         user.setUsername(request.getParameter("username"));
         user.setWorkNo(request.getParameter("workNo"));
@@ -38,15 +39,25 @@ public class UserController {
         user.setPhone(request.getParameter("phone"));
         user.setAddress(request.getParameter("address"));
         user.setEmail(request.getParameter("email"));
+        ListObject listObject = new ListObject();
         if (userService.save(user)) {
-            model.addAttribute("message", "注册成功");
-            return "login";
+//            model.addAttribute("message", "注册成功");
+//            return "login";
+
+            listObject.setCode(StatusCode.CODE_SUCCESS);
+            listObject.setMsg("感谢您的注册，你现在可以去登录了！");
+            ResponseUtils.renderJson(response,JsonUtils.toJson(listObject));
         } else {
-            model.addAttribute("message", "注册失败");
-            return "login";
+//            model.addAttribute("message", "注册失败");
+//            return "login";
+
+            listObject.setCode(StatusCode.CODE_ERROR_PROGRAM);
+            listObject.setMsg("注册失败，请重新注册");
+            ResponseUtils.renderJson(response,JsonUtils.toJson(listObject));
         }
     }
 
+    //用于检查用户输入的用户名，手机号，email是否重复注册
     @RequestMapping("/check")
     @ResponseBody
     public String checkUser(HttpServletRequest request, Model model) {
@@ -64,6 +75,7 @@ public class UserController {
         return "false";
     }
 
+    //测试http返回json格式
     @RequestMapping("/userList")
     @ResponseBody
     public void userList(HttpServletRequest request, HttpServletResponse response){

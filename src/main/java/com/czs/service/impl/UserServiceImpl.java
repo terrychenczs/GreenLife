@@ -8,6 +8,7 @@ import com.czs.pojo.SysUser;
 import com.czs.pojo.UserParams;
 import com.czs.service.UserService;
 import com.czs.util.PasswordHelper;
+import org.mybatis.spring.MyBatisSystemException;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -72,8 +73,8 @@ public class UserServiceImpl implements UserService {
                }
            }
            return false;
-       }catch (Exception e){
-           e.printStackTrace();
+       }catch (MyBatisSystemException e){
+           System.out.println("搜索结果大于2条");
            return false;
        }
     }

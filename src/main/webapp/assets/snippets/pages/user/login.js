@@ -88,18 +88,22 @@ var SnippetLogin = function () {
             btn.addClass('m-loader m-loader--right m-loader--light').attr('disabled', true);
 
             form.ajaxSubmit({
-                type:"post",
-                dataType:"json",
-                async:false,
+                type: "post",
+                dataType: "json",
+                async: false,
                 url: $('#Userlogin').attr('action'),
                 success: function (msg) {
                     console.log(msg);
                     // similate 2s delay
-                    setTimeout(function () {
-                        btn.removeClass('m-loader m-loader--right m-loader--light').attr('disabled', false);
+
+                    btn.removeClass('m-loader m-loader--right m-loader--light').attr('disabled', false);
+
+                    if (msg.code == 1) {
+                        showErrorMsg(form, 'success', msg.msg);
+                        window.open("admin/index","_self");
+                    }else {
                         showErrorMsg(form, 'danger', msg.msg);
-                    }, 2000);
-                    setTimeout(window.open("admin/index?id="+msg.code),2000);
+                    }
                 }
             });
 
@@ -111,109 +115,109 @@ var SnippetLogin = function () {
 
         var url = urlpath + '/user/check';
         $('#createForm').validate({
-                rules: {
-                    username: {
-                        required: true,
-                        rangelength: [6, 10],
-                        remote:{
-                            url:url,
-                            type: "post",
-                            data:{
-                                username:function () {
-                                    return $('#createForm input[name="username"]').val();
-                                }
+            rules: {
+                username: {
+                    required: true,
+                    rangelength: [6, 10],
+                    remote: {
+                        url: url,
+                        type: "post",
+                        data: {
+                            username: function () {
+                                return $('#createForm input[name="username"]').val();
                             }
                         }
-                    },
-                    workNo: {
-                        //required: true,
-                        rangelength: [3, 5]
-                    },
-                    age: {
-                        //required: true,
-                        digits: true,
-                        range: [18, 99]
-                    },
-                    phone: {
-                        //required: true,
-                        digits: true,
-                        rangelength: [11, 11],
-                        remote: {
-                            type:'post',
-                            /*dataType: 'json',*/
-                            url:url,
-                            data:{
-                                phone:function () {
-                                    return $('#createForm input[name=phone]').val();
-                                }
-                            }
-                        }
-                    },
-                    email: {
-                        //required: true,
-                        //email: true,
-                        remote: {
-                            url:url,
-                            type:'post',
-                            /*dataType:'json',*/
-                            data: {
-                                email:function () {
-                                    return $('#createForm input[name=email]').val();
-                                }
-                            }
-                        }
-                    },
-                    address: {
-                        //required: true
-                    },
-                    password: {
-                        required: true,
-                        minlength: 6
-                    },
-                    rpassword: {
-                        required: true,
-                        equalTo: "#password"
                     }
                 },
-                messages: {
-                    username: {
-                        required: "请输入用户名",
-                        rangelength: "用户名必须为6-10位数组成",
-                        remote:"该用户名已被注册，请重新填写"
-                    },
-                    workNo: {
-                        //required: "请输入你的工号",
-                        rangelength: "工号必须为3-5位数组成"
-                    },
-                    age: {
-                        //required: "请输入你的年龄",
-                        digits: "请输入正确的年龄",
-                        range: "输入的年龄必须在18-99岁之间"
-                    },
-                    phone: {
-                        required: "请输入你的手机号",
-                        digits: "请输入正确手机号",
-                        rangelength: "请输入11位手机号",
-                        remote:"该手机号已被注册，请重新填写"
-                    },
-                    email: {
-                        required: "请输入你的邮箱",
-                        email: "请输入一个正确的邮箱",
-                        remote: "该邮箱已被注册，请重新填写"
-                    },
-                    address: {
-                        //required: "请输入你的现住地址"
-                    },
-                    password: {
-                        required: "请输入你的密码",
-                        minlength: "密码长度不能小于 5 个字母"
-                    },
-                    rpassword: {
-                        required: "请输入你的密码",
-                        equalTo: "两次密码输入不一致"
+                workNo: {
+                    //required: true,
+                    rangelength: [3, 5]
+                },
+                age: {
+                    //required: true,
+                    digits: true,
+                    range: [18, 99]
+                },
+                phone: {
+                    //required: true,
+                    digits: true,
+                    rangelength: [11, 11],
+                    remote: {
+                        type: 'post',
+                        /*dataType: 'json',*/
+                        url: url,
+                        data: {
+                            phone: function () {
+                                return $('#createForm input[name="phone"]').val();
+                            }
+                        }
                     }
+                },
+                email: {
+                    //required: true,
+                    email: true,
+                    remote: {
+                        url: url,
+                        type: 'post',
+                        /*dataType:'json',*/
+                        data: {
+                            email: function () {
+                                return $('#createForm input[name="email"]').val();
+                            }
+                        }
+                    }
+                },
+                address: {
+                    //required: true
+                },
+                password: {
+                    required: true,
+                    minlength: 6
+                },
+                rpassword: {
+                    required: true,
+                    equalTo: "#password"
                 }
-            });
+            },
+            messages: {
+                username: {
+                    required: "请输入用户名",
+                    rangelength: "用户名必须为6-10位数组成",
+                    remote: "该用户名已被注册，请重新填写"
+                },
+                workNo: {
+                    //required: "请输入你的工号",
+                    rangelength: "工号必须为3-5位数组成"
+                },
+                age: {
+                    //required: "请输入你的年龄",
+                    digits: "请输入正确的年龄",
+                    range: "输入的年龄必须在18-99岁之间"
+                },
+                phone: {
+                    required: "请输入你的手机号",
+                    digits: "请输入正确手机号",
+                    rangelength: "请输入11位手机号",
+                    remote: "该手机号已被注册，请重新填写"
+                },
+                email: {
+                    required: "请输入你的邮箱",
+                    email: "请输入一个正确的邮箱",
+                    remote: "该邮箱已被注册，请重新填写"
+                },
+                address: {
+                    //required: "请输入你的现住地址"
+                },
+                password: {
+                    required: "请输入你的密码",
+                    minlength: "密码长度不能小于 5 个字母"
+                },
+                rpassword: {
+                    required: "请输入你的密码",
+                    equalTo: "两次密码输入不一致"
+                }
+            }
+        });
 
         $('#m_login_signup_submit').click(function (e) {
             e.preventDefault();
@@ -224,24 +228,27 @@ var SnippetLogin = function () {
             btn.addClass('m-loader m-loader--right m-loader--light').attr('disabled', true);
 
             form.ajaxSubmit({
-                type:'post',
+                type: 'post',
+                dataType: 'json',
                 //data:$("#createForm").serialize(),
                 url: $("#createForm").attr("action"),
-                success: function (response, status, xhr, $form) {
-                    // similate 2s delay
-                    setTimeout(function () {
-                        btn.removeClass('m-loader m-loader--right m-loader--light').attr('disabled', false);
-                        form.clearForm();
-                        form.validate().resetForm();
+                success: function (msg) {
+                    console.log(msg);
+                    var code = msg.code;
+                    btn.removeClass('m-loader m-loader--right m-loader--light').attr('disabled', false);
+                    form.clearForm();
+                    form.validate().resetForm();
 
-                        // display signup form
+                    if (msg.code == 1) {
                         displaySignInForm();
                         var signInForm = login.find('.m-login__signin form');
                         signInForm.clearForm();
                         signInForm.validate().resetForm();
-
-                        showErrorMsg(signInForm, 'success', '感谢您的注册，你现在可以去登录了！');
-                    }, 2000);
+                        showErrorMsg(signInForm, 'success', msg.msg);
+                    }
+                    else {
+                        showErrorMsg(form, 'danger', msg.msg);
+                    }
                 }
             });
         });

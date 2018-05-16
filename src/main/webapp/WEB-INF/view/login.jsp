@@ -53,7 +53,7 @@
                             用户登录
                         </h3>
                     </div>
-                    <form class="m-login__form m-form" action="${pageContext.request.contextPath}/loginTest" method="post">
+                    <form class="m-login__form m-form" id="Userlogin" action="${pageContext.request.contextPath}/loginTest" method="post">
                         <div class="form-group m-form__group">
                             <input class="form-control m-input"   type="text" placeholder="邮箱/账号/手机号" name="username" autocomplete="off">
                         </div>
@@ -90,7 +90,7 @@
                             输入您的详细信息以创建帐户:
                         </div>
                     </div>
-                    <form class="m-login__form m-form" action="${pageContext.request.contextPath}/user/createUser" method="post">
+                    <form class="m-login__form m-form" id="createForm" action="${pageContext.request.contextPath}/user/createUser" method="post">
                         <div class="form-group m-form__group">
                             <input class="form-control m-input" type="text" placeholder="用户名" name="username" autocomplete="off">
                         </div>
@@ -110,7 +110,7 @@
                             <input class="form-control m-input" type="text" placeholder="地址" name="address" autocomplete="off">
                         </div>
                         <div class="form-group m-form__group">
-                            <input class="form-control m-input" type="password" placeholder="密码" name="password" autocomplete="off">
+                            <input class="form-control m-input" id="password" type="password" placeholder="密码" name="password" autocomplete="off">
                         </div>
                         <div class="form-group m-form__group">
                             <input class="form-control m-input m-login__form-input--last" type="password" placeholder="确认密码" name="rpassword" autocomplete="off">
@@ -181,6 +181,7 @@
 <!--begin::Base Scripts -->
 <script src="${pageContext.request.contextPath}/assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
 <script src="${pageContext.request.contextPath}/assets/demo/default/base/scripts.bundle.js" type="text/javascript"></script>
+<%--<script src="${pageContext.request.contextPath}/assets/vendors/base/jquery.validate.js" type="text/javascript"></script>--%>
 <!--end::Base Scripts -->
 <!--begin::Page Snippets -->
 <script src="${pageContext.request.contextPath}/assets/snippets/pages/user/login.js" type="text/javascript"></script>
