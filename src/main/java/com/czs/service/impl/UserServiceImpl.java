@@ -26,8 +26,6 @@ public class UserServiceImpl implements UserService {
     private UserMapper userMapper;
     @Resource
     private SysUserMapper sysUserMapper;
-    @Resource
-    private UserRoleMapper userRoleMapper;
 
 
     @Override

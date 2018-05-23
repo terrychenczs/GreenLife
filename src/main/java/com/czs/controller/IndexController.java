@@ -6,8 +6,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/admin")
 public class IndexController {
-@RequestMapping("/index")
-public String index(){
-	return "index";
-}
+	@RequestMapping("/index")
+	public String index() {
+		return "index";
+	}
+
+	@RequestMapping("/dataAjax")
+	public String dataAjax() {
+		return "dataAjax";
+	}
 }

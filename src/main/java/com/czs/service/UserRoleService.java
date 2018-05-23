@@ -6,7 +6,10 @@ import java.util.Set;
 import com.czs.entity.Role;
 import com.czs.entity.User;
 import com.czs.entity.UserRole;
-/** 
+import com.czs.pojo.SysRole;
+import com.czs.pojo.SysUser;
+
+/**
 * @ClassName: UserRoleService 
 * @Description: TODO(这里用一句话描述这个类的作用) 
 * @author jiayq
@@ -16,4 +19,5 @@ import com.czs.entity.UserRole;
 public interface UserRoleService {
 	public List<UserRole> loadByUsername(String username);
 	public void save(UserRole userRole);
+
 }

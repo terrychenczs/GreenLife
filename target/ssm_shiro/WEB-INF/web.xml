@@ -17,7 +17,8 @@
 
     <listener>  
         <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>  
-    </listener>  
+    </listener>
+    <!--解决POST方式造成的中文乱码问题,项目及所有页面的编码均为UTF-8 started-->
     <filter>  
         <filter-name>CharacterEncodingFilter</filter-name>  
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>  
@@ -33,7 +34,8 @@
     <filter-mapping>  
         <filter-name>CharacterEncodingFilter</filter-name>  
         <url-pattern>/*</url-pattern>  
-    </filter-mapping>  
+    </filter-mapping>
+    <!--解决POST方式造成的中文乱码问题,项目及所有页面的编码均为UTF-8 completed-->
     <context-param>  
         <param-name>contextConfigLocation</param-name>  
         <param-value>  
@@ -58,7 +60,7 @@
         <url-pattern>/</url-pattern>  
     </servlet-mapping>  
     <session-config>  
-        <session-timeout>30</session-timeout>  
+        <session-timeout>1</session-timeout>
     </session-config>  
   
     <filter>  

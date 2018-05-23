@@ -11,6 +11,8 @@ public interface SysRoleMapper {
 
     SysRole selectByPrimaryKey(Long id);
 
+    SysRole getRoleByUser(String username);
+
     int updateByPrimaryKeySelective(SysRole record);
 
     int updateByPrimaryKey(SysRole record);

@@ -5,7 +5,10 @@ import java.util.Set;
 
 import com.czs.entity.Role;
 import com.czs.pojo.RoleParams;
-/** 
+import com.czs.pojo.SysRole;
+import com.czs.pojo.SysUser;
+
+/**
 * @ClassName: RoleService 
 * @Description: TODO(这里用一句话描述这个类的作用) 
 * @author jiayq
@@ -15,5 +18,5 @@ import com.czs.pojo.RoleParams;
 public interface RoleService {
 	public void save(Role  role);
 	public Set<String> loadRoleIdByUsername(String username);
-
+	public SysRole getRoleByUser(String username);
 }

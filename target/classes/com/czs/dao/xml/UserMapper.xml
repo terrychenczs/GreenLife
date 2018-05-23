@@ -37,7 +37,7 @@
 <!-- 	<where> -->
 	<trim prefix="WHERE" prefixOverrides="AND |OR ">
 		<if test="username!=null and username!=''">
-		username like concat(#{username},'%')
+		binary username like #{username}
 		</if>
 		<if test="workNo!=null and workNo!=''">
 		and work_no=#{workNo}

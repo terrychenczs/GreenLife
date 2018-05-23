@@ -63,7 +63,7 @@
                         <div class="row m-login__form-sub">
                             <div class="col m--align-left m-login__form-left">
                                 <label class="m-checkbox  m-checkbox--light">
-                                    <input type="checkbox" name="remember">
+                                    <input type="checkbox" name="rememberMe" value="true">
                                     记住我
                                     <span></span>
                                 </label>

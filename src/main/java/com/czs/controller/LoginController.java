@@ -5,7 +5,11 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.czs.dao.mapper.SysRoleMapper;
+import com.czs.pojo.SysRole;
+import com.czs.service.RoleService;
 import com.czs.util.jsonUtil.Entity.ListObject;
+import com.czs.util.jsonUtil.Entity.StatusMsg;
 import com.czs.util.jsonUtil.JsonUtils;
 import com.czs.util.jsonUtil.ResponseUtils;
 import com.czs.util.jsonUtil.Entity.StatusCode;
@@ -20,7 +24,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.czs.service.UserService;
-/**  
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
 * @ClassName: LoginController  
 * @Description: TODO(登录controller)  
 * @author jiayq 
@@ -31,7 +39,10 @@ import com.czs.service.UserService;
 @RequestMapping("/")  
 public class LoginController {  
     @Resource  
-    private UserService userService;  
+    private UserService userService;
+
+    @Resource
+    private RoleService roleService;
     /**  
     * @Title: loginView  
     * @Description: TODO(转向登录界面)  
@@ -65,8 +76,10 @@ public class LoginController {
         //将form中的用户名密码传入Realm 的doGetAuthenticationInfo  
         UsernamePasswordToken token = new UsernamePasswordToken(username, password.toCharArray());  
         token.setRememberMe(rememberMe);  
-        Subject currentUser = SecurityUtils.getSubject();  
-        String error = "";  
+        Subject currentUser = SecurityUtils.getSubject();
+        List<SysRole> roleList = new ArrayList<SysRole>();
+        SysRole sysRole = roleService.getRoleByUser(username);
+        roleList.add(sysRole);
         try {  
             currentUser.login(token);
         } catch (UnknownAccountException ex) {// 用户名没有找到
@@ -99,7 +112,8 @@ public class LoginController {
         if (currentUser.isAuthenticated()) {
             ListObject listObject = new ListObject();
             listObject.setCode(StatusCode.CODE_SUCCESS);
-            listObject.setMsg("登录成功，正在跳转界面！！！");
+            listObject.setMsg(StatusMsg.CODE_SUCCESS);
+            listObject.setItems(roleList);
             ResponseUtils.renderJson(response, JsonUtils.toJson(listObject));
             //return "redirect:/admin/index";
         }

@@ -13,7 +13,7 @@ public class SysRole implements Serializable {
 
     private String code;
 
-    private Long pid;
+    private String pid;
 
     private String remark;
 
@@ -59,11 +59,11 @@ public class SysRole implements Serializable {
         this.code = code == null ? null : code.trim();
     }
 
-    public Long getPid() {
+    public String getPid() {
         return pid;
     }
 
-    public void setPid(Long pid) {
+    public void setPid(String pid) {
         this.pid = pid;
     }
 

@@ -100,7 +100,8 @@ var SnippetLogin = function () {
 
                     if (msg.code == 1) {
                         showErrorMsg(form, 'success', msg.msg);
-                        window.open("admin/index","_self");
+                        var url = msg.items[0].pid;
+                        window.open(url,"_self");
                     }else {
                         showErrorMsg(form, 'danger', msg.msg);
                     }
