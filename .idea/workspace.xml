@@ -6,97 +6,53 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8b99f1f-460b-4106-93bc-188e2b2aeaef" name="Default" comment="add role">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/Entity/StatusMsg.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/czs/util/myFormAuthenticationFilter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/dataAjax.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/100_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/100_10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/100_11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/100_12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/100_13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/100_14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/100_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/100_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/100_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/100_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/100_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/100_7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/100_8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/100_9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/300_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/300_10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/300_11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/300_12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/300_13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/300_14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/300_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/300_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/300_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/300_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/300_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/300_7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/300_8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/300_9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/user1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/user2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/user3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/user4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/app/media/img/users/user5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/demo/default/custom/components/datatables/base/data-ajax.js" />
+    <list default="true" id="a8b99f1f-460b-4106-93bc-188e2b2aeaef" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/czs/enums/UserTypeEnum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/AsideMenu.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/Footer.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/header.jsp" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ssm_shiro_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ssm_shiro_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/czs/controller/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/com/czs/controller/IndexController.java" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/czs/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/czs/controller/LoginController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/czs/credentials/RetryLimitHashedCredentialsMatcher.java" afterPath="$PROJECT_DIR$/src/main/java/com/czs/credentials/RetryLimitHashedCredentialsMatcher.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/czs/dao/mapper/SysRoleMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/czs/dao/mapper/SysRoleMapper.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/czs/dao/xml/SysRoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/czs/dao/xml/SysRoleMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/czs/dao/xml/SysUserRoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/czs/dao/xml/SysUserRoleMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/czs/dao/xml/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/czs/dao/xml/UserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/czs/pojo/SysRole.java" afterPath="$PROJECT_DIR$/src/main/java/com/czs/pojo/SysRole.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/czs/realm/UserRealm.java" afterPath="$PROJECT_DIR$/src/main/java/com/czs/realm/UserRealm.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/czs/service/RoleService.java" afterPath="$PROJECT_DIR$/src/main/java/com/czs/service/RoleService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/czs/service/UserRoleService.java" afterPath="$PROJECT_DIR$/src/main/java/com/czs/service/UserRoleService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/czs/service/impl/RoleServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/czs/service/impl/RoleServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/czs/service/impl/UserRoleServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/czs/service/impl/UserRoleServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/czs/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/czs/service/impl/UserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/Entity/AbstractJSON.java" afterPath="$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/Entity/AbstractJSON.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationMVC.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationMVC.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/springShiro.xml" afterPath="$PROJECT_DIR$/src/main/resources/springShiro.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/dataAjax.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/dataAjax.jsp" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/snippets/pages/user/login.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/snippets/pages/user/login.js" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" />
+      <change beforePath="$PROJECT_DIR$/ssm_shiro.iml" afterPath="$PROJECT_DIR$/ssm_shiro.iml" />
       <change beforePath="$PROJECT_DIR$/target/classes/applicationMVC.xml" afterPath="$PROJECT_DIR$/target/classes/applicationMVC.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/czs/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/classes/com/czs/controller/IndexController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/czs/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/czs/controller/LoginController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/czs/credentials/RetryLimitHashedCredentialsMatcher.class" afterPath="$PROJECT_DIR$/target/classes/com/czs/credentials/RetryLimitHashedCredentialsMatcher.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/czs/dao/mapper/SysRoleMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/czs/dao/mapper/SysRoleMapper.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/czs/dao/xml/SysRoleMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/czs/dao/xml/SysRoleMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/czs/dao/xml/SysUserRoleMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/czs/dao/xml/SysUserRoleMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/czs/dao/xml/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/czs/dao/xml/UserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/czs/pojo/SysRole.class" afterPath="$PROJECT_DIR$/target/classes/com/czs/pojo/SysRole.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/czs/realm/UserRealm.class" afterPath="$PROJECT_DIR$/target/classes/com/czs/realm/UserRealm.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/czs/service/RoleService.class" afterPath="$PROJECT_DIR$/target/classes/com/czs/service/RoleService.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/czs/service/impl/RoleServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/czs/service/impl/RoleServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/czs/service/impl/UserRoleServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/czs/service/impl/UserRoleServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/czs/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/czs/service/impl/UserServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
       <change beforePath="$PROJECT_DIR$/target/classes/springShiro.xml" afterPath="$PROJECT_DIR$/target/classes/springShiro.xml" />
-      <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/applicationContext.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/applicationContext.xml" />
       <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/applicationMVC.xml" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/applicationMVC.xml" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/controller/IndexController.class" />
       <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/controller/LoginController.class" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/credentials/RetryLimitHashedCredentialsMatcher.class" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/credentials/RetryLimitHashedCredentialsMatcher.class" />
       <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/dao/mapper/SysRoleMapper.class" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/dao/mapper/SysRoleMapper.class" />
       <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/dao/xml/SysRoleMapper.xml" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/dao/xml/SysRoleMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/dao/xml/SysUserRoleMapper.xml" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/dao/xml/SysUserRoleMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/dao/xml/UserMapper.xml" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/dao/xml/UserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/pojo/SysRole.class" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/pojo/SysRole.class" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/realm/UserRealm.class" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/realm/UserRealm.class" />
       <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/service/RoleService.class" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/service/RoleService.class" />
       <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/service/impl/RoleServiceImpl.class" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/service/impl/RoleServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/service/impl/UserRoleServiceImpl.class" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/service/impl/UserRoleServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/com/czs/service/impl/UserServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/log4j.properties" />
       <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/springShiro.xml" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/classes/springShiro.xml" />
       <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/view/index.jsp" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/view/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/view/login.jsp" afterPath="$PROJECT_DIR$/target/ssm_shiro/WEB-INF/view/login.jsp" />
       <change beforePath="$PROJECT_DIR$/target/ssm_shiro/assets/snippets/pages/user/login.js" afterPath="$PROJECT_DIR$/target/ssm_shiro/assets/snippets/pages/user/login.js" />
       <change beforePath="$PROJECT_DIR$/target/ssm_shiro/login.jsp" afterPath="$PROJECT_DIR$/target/ssm_shiro/login.jsp" />
     </list>
@@ -123,27 +79,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dataAjax.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/dataAjax.jsp">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
-              <caret line="3200" column="57" lean-forward="false" selection-start-line="3200" selection-start-column="57" selection-end-line="3200" selection-end-column="57" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="1433">
+              <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/controller/IndexController.java">
+      <file leaf-file-name="springShiro.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/springShiro.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="236">
+              <caret line="137" column="55" lean-forward="true" selection-start-line="137" selection-start-column="55" selection-end-line="137" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRealm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/realm/UserRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding>
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#1998#2006#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,36 +123,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>text/css</find>
-      <find>@font-face</find>
-      <find>font</find>
-      <find>class=&quot;m-content&quot;</find>
-      <find>m-subheader__title</find>
-      <find>m-subheader</find>
-      <find>m-nav__link m-dropdown__toggle</find>
-      <find>snippets/pages/user/login-1.html</find>
-      <find>concat(?,'%')</find>
-      <find>sessionIdCookie</find>
-      <find>DefaultWebSessionManager</find>
+      <find>m-grid__item</find>
+      <find>m-stack__item m-stack__item--fluid m-header-head</find>
+      <find>m-aside-left-close  m-aside-left-close--skin-dark</find>
+      <find>m-grid__item		m-footer</find>
+      <find>My Profile</find>
+      <find>About</find>
+      <find>m_quick_sidebar</find>
+      <find>m_quick_sidebar_toggle</find>
+      <find>m-grid__item    m-header</find>
+      <find>AuthorizingRealm</find>
+      <find>m_aside_left</find>
+      <find>isPermitted</find>
+      <find>doGetAuthenticationInfo</find>
+      <find>aspectjrt</find>
+      <find>getPrimaryPrincipal</find>
       <find>logout</find>
-      <find>会话创建</find>
-      <find>onExpiration</find>
-      <find>setRememberMe</find>
-      <find>m_datatable_latest_orders-1-meta</find>
-      <find>FormAuthenticationFilter</find>
-      <find>shiro.session</find>
-      <find>WebUtils</find>
-      <find>redirectToSavedRequest</find>
-      <find>authc</find>
-      <find>admin</find>
-      <find>kickout</find>
-      <find>public class BeanNameUrlHandlerMapping extends AbstractDetectingUrlHandlerMapping {</find>
-      <find>BeanNameUrlHandlerMapping</find>
-      <find>\&lt;component name\=\&quot;libraryTable\&quot;\&gt;\n  \&lt;library name\=\&quot;Maven\: cglib\:cglib\:3\.2\.4\&quot;\&gt;\n    \&lt;CLASSES\&gt;\n      \&lt;root url\=\&quot;jar\:\/\/D\:\/workplace\/projectDependents\/cglib\/cglib\/3\.2\.4\/cglib\-3\.2\.4\.jar\!\/\&quot; \/\&gt;\n    \&lt;\/CLASSES\&gt;\n    \&lt;JAVADOC\&gt;\n      \&lt;root url\=\&quot;jar\:\/\/D\:\/workplace\/projectDependents\/cglib\/cglib\/3\.2\.4\/cglib\-3\.2\.4\-javadoc\.jar\!\/\&quot; \/\&gt;\n    \&lt;\/JAVADOC\&gt;\n    \&lt;SOURCES\&gt;\n      \&lt;root url\=\&quot;jar\:\/\/D\:\/workplace\/projectDependents\/cglib\/cglib\/3\.2\.4\/cglib\-3\.2\.4\-sources\.jar\!\/\&quot; \/\&gt;\n    \&lt;\/SOURCES\&gt;</find>
-      <find>信销网站后台管理</find>
-      <find>dispatcher</find>
-      <find>exce</find>
-      <find>controller</find>
+      <find>m-grid__item m-grid__item--fluid m-wrapper</find>
+      <find>doGetAuthorizationInfo</find>
+      <find>AuthorizationInfo</find>
+      <find>UserRealm</find>
+      <find>Role</find>
+      <find>getLong()</find>
+      <find>hasRole</find>
+      <find>loadRoleIdByUsername</find>
+      <find>UnauthorizedException</find>
+      <find>userService</find>
+      <find>.m-login__signin</find>
+      <find>m-login__signin</find>
+      <find>maxSession</find>
+      <find>RolesAuthorizationFilter</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -207,56 +169,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/target/classes/com/czs/dao/xml/SysUserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/czs/dao/xml/SysUserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/czs/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/czs/util/AbstractJSON.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/czs/entity/AbstractJSON.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/czs/util/JsonWriter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/JsonWriter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/AbstractJSON.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/ListObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/JsonUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/SingleObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/ResponseUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/Entity/AbstractJSON.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/Entity/ListObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/Entity/SingleObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/StatusCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/Entity/StatusCode.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/vendors/base/vendors.bundle.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/dao/xml/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/dao/xml/SysUserRoleMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/dao/mapper/SysUserRoleMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/czs/dao/mapper/SysRoleMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/service/UserRoleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/service/impl/UserRoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/data_ajax.jsp" />
         <option value="$PROJECT_DIR$/target/classes/com/czs/dao/xml/SysRoleMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/czs/service/RoleService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/czs/service/impl/RoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/pojo/SysRole.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/czs/dao/xml/SysRoleMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/snippets/pages/user/login.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/util/myFormAuthenticationFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/springShiro.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/Entity/StatusMsg.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/czs/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationMVC.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/czs/util/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/czs/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/nav.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/Footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czs/credentials/RetryLimitHashedCredentialsMatcher.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationMVC.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/AsideMenu.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/dataAjax.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czs/enums/userTypeEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czs/enums/UserTypeEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czs/dao/xml/SysRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czs/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czs/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czs/dao/mapper/SysRoleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czs/realm/UserRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czs/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/Entity/AbstractJSON.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czs/util/KickoutSessionControlFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/snippets/pages/user/login.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czs/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/springShiro.xml" />
       </list>
     </option>
   </component>
@@ -289,30 +252,12 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="ssmShiro Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssmShiro Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssmShiro Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework:spring-webmvc:4.3.2.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssmShiro Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework:spring-webmvc:4.3.2.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework:spring-context:4.3.2.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="668" />
+    <option name="x" value="789" />
     <option name="y" value="5" />
     <option name="width" value="1109" />
     <option name="height" value="1047" />
@@ -355,17 +300,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="GreenLife" type="cbb8eebc:String" user="GreenLife" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -408,10 +343,175 @@
               <item name="czs" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ssm_shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenLife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="czs" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenLife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="czs" type="462c0819:PsiDirectoryNode" />
+              <item name="realm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenLife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="czs" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenLife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="czs" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenLife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenLife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenLife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenLife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenLife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenLife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenLife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenLife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="snippets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenLife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="snippets" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenLife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="snippets" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenLife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="vendors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenLife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="vendors" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenLife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenLife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -423,8 +523,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="GreenLife" type="cbb8eebc:String" user="GreenLife" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -436,6 +545,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ssm+restful/Maven_Project" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file://D:/IdeaProjects/GreenLife/src/main/webapp/index.jsp" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -694,7 +805,10 @@
       <workItem from="1526701567832" duration="19764000" />
       <workItem from="1526786756736" duration="4979000" />
       <workItem from="1526893064077" duration="6204000" />
-      <workItem from="1527040439662" duration="2762000" />
+      <workItem from="1527040439662" duration="17858000" />
+      <workItem from="1527128283183" duration="21118000" />
+      <workItem from="1527212264130" duration="29456000" />
+      <workItem from="1527299106121" duration="23030000" />
     </task>
     <task id="LOCAL-00001" summary="updata login function&#10;updata create user function &#10;add home page index.jsp&#10;add font properity">
       <created>1526485270451</created>
@@ -703,11 +817,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526485270451</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add role page">
+      <created>1527046848299</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527046848299</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138846000" />
+    <option name="totallyTimeSpent" value="227546000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -721,74 +842,74 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26918977" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20591038" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2860335" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273743" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.326257" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5173184" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273743" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19669509" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26882747" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20591038" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2547486" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33184358" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15688488" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.326257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5173184" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273743" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36300638" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5900858" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26918977" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26882747" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20591038" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2860335" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273743" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5173184" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273743" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19669509" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20591038" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29385474" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33184358" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15688488" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.326257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5173184" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273743" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36300638" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5900858" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -801,14 +922,15 @@
     <MESSAGE value="updata login function" />
     <MESSAGE value="updata login function&#10;updata create user function &#10;add home page index.jsp&#10;add font properity" />
     <MESSAGE value="add role" />
-    <option name="LAST_COMMIT_MESSAGE" value="add role" />
+    <MESSAGE value="add role page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add role page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="41" />
+      <option name="time" value="76" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -816,11 +938,291 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>currentUser</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE-sources.jar!/org/springframework/aop/support/AopUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="332" column="0" lean-forward="false" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-tx/4.3.2.RELEASE/spring-tx-4.3.2.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="290" column="0" lean-forward="false" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-tx/4.3.2.RELEASE/spring-tx-4.3.2.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE-sources.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="237" column="0" lean-forward="false" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE-sources.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/dao/mapper/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workplace/projectDependents/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/SecurityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workplace/projectDependents/org/mybatis/mybatis/3.4.2/mybatis-3.4.2-sources.jar!/org/apache/ibatis/binding/MapperProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/dao/xml/SysUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workplace/projectDependents/org/mybatis/mybatis/3.4.2/mybatis-3.4.2-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/dao/xml/SysRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="137" column="22" lean-forward="true" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/dao/mapper/SysRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_91/src.zip!/java/net/DualStackPlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationMVC.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/dataAjax.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="990" column="0" lean-forward="false" selection-start-line="990" selection-start-column="0" selection-end-line="990" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/Entity/StatusCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/Entity/SingleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/Entity/AbstractJSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="45" column="25" lean-forward="false" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#262#263#0" expanded="false" />
+            <element signature="e#283#284#0" expanded="false" />
+            <element signature="e#342#343#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/util/jsonUtil/Entity/ListObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="69" column="56" lean-forward="false" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="37" column="86" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/snippets/pages/user/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="328" column="37" lean-forward="true" selection-start-line="328" selection-start-column="37" selection-end-line="328" selection-end-column="37" />
+          <folding>
+            <marker date="1527325318339" expanded="true" signature="317:435" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workplace/projectDependents/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/servlet/AdviceFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workplace/projectDependents/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/filter/PathMatchingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workplace/projectDependents/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/filter/AccessControlFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/util/KickoutSessionControlFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="67" column="2" lean-forward="true" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="2" />
+          <folding>
+            <element signature="e#999#1000#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="35" column="41" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -828,996 +1230,139 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springShiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="121" column="45" lean-forward="false" selection-start-line="121" selection-start-column="45" selection-end-line="121" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="jar://D:/Java/jdk1.8.0_91/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_4.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="70" column="4" lean-forward="false" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        <state relative-caret-position="289">
+          <caret line="151" column="16" lean-forward="false" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/service/RoleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="134" lean-forward="false" selection-start-line="4" selection-start-column="134" selection-end-line="4" selection-end-column="134" />
+        <state relative-caret-position="187">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="uml://MAVEN/com.czs:ssm_shiro:0.0.1-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.czs:ssm_shiro:0.0.1-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="2249.219405254479" y="810.0">com.czs:ssm_shiro:0.0.1-SNAPSHOT</node>
-            <node x="1382.375" y="540.0">junit:junit:jar:4.0</node>
-            <node x="506.0" y="280.0">org.springframework:spring-aop:jar:4.3.2.RELEASE</node>
-            <node x="522.8057147782911" y="80.0">org.springframework:spring-aop:jar:4.3.2.RELEASE/org.springframework:spring-core:jar:4.3.2.RELEASE</node>
-            <node x="503.3057147782911" y="0.0">org.springframework:spring-aop:jar:4.3.2.RELEASE/org.springframework:spring-core:jar:4.3.2.RELEASE/commons-logging:commons-logging:jar:1.2</node>
-            <node x="4300.964081554879" y="540.0">org.aspectj:aspectjweaver:jar:1.6.11</node>
-            <node x="3107.625" y="540.0">cglib:cglib:jar:3.2.4</node>
-            <node x="3147.089081554879" y="440.0">cglib:cglib:jar:3.2.4/org.ow2.asm:asm:jar:5.1</node>
-            <node x="3077.089081554879" y="440.0">cglib:cglib:jar:3.2.4/org.apache.ant:ant:jar:1.9.6</node>
-            <node x="3050.089081554879" y="360.0">cglib:cglib:jar:3.2.4/org.apache.ant:ant:jar:1.9.6/org.apache.ant:ant-launcher:jar:1.9.6</node>
-            <node x="814.1250000000001" y="180.0">org.springframework:spring-beans:jar:4.3.2.RELEASE</node>
-            <node x="552.875" y="540.0">org.springframework:spring-webmvc:jar:4.3.2.RELEASE</node>
-            <node x="409.3182482215457" y="360.0">org.springframework:spring-webmvc:jar:4.3.2.RELEASE/org.springframework:spring-context:jar:4.3.2.RELEASE</node>
-            <node x="311.875" y="280.0">org.springframework:spring-webmvc:jar:4.3.2.RELEASE/org.springframework:spring-expression:jar:4.3.2.RELEASE</node>
-            <node x="2807.589081554879" y="360.0">org.springframework:spring-jdbc:jar:4.3.2.RELEASE</node>
-            <node x="720.4694052544793" y="440.0">org.springframework:spring-web:jar:4.3.2.RELEASE</node>
-            <node x="3150.589081554879" y="280.0">org.springframework:spring-tx:jar:4.3.2.RELEASE</node>
-            <node x="1800.4224148882122" y="540.0">commons-dbcp:commons-dbcp:jar:1.4</node>
-            <node x="1801.9224148882122" y="440.0">commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.5.4</node>
-            <node x="2391.589081554879" y="540.0">mysql:mysql-connector-java:jar:5.1.18</node>
-            <node x="2294.589081554879" y="540.0">org.mybatis:mybatis:jar:3.4.2</node>
-            <node x="3616.964081554879" y="540.0">org.mybatis:mybatis-spring:jar:1.3.0</node>
-            <node x="3755.9640815548787" y="540.0">org.mybatis:mybatis-ehcache:jar:1.0.0</node>
-            <node x="3765.4640815548787" y="440.0">org.mybatis:mybatis-ehcache:jar:1.0.0/net.sf.ehcache:ehcache-core:jar:2.0.0</node>
-            <node x="3224.089081554879" y="440.0">log4j:log4j:jar:1.2.17</node>
-            <node x="3518.964081554879" y="540.0">com.alibaba:fastjson:jar:1.1.41</node>
-            <node x="3394.4568718112246" y="440.0">org.slf4j:slf4j-api:jar:1.7.7</node>
-            <node x="3246.964081554879" y="540.0">org.slf4j:slf4j-log4j12:jar:1.7.7</node>
-            <node x="839.8750000000001" y="540.0">org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
-            <node x="2694.589081554879" y="540.0">commons-fileupload:commons-fileupload:jar:1.3.1</node>
-            <node x="2718.089081554879" y="440.0">commons-fileupload:commons-fileupload:jar:1.3.1/commons-io:commons-io:jar:2.2</node>
-            <node x="2569.589081554879" y="540.0">commons-io:commons-io:jar:2.4</node>
-            <node x="3369.964081554879" y="540.0">commons-codec:commons-codec:jar:1.9</node>
-            <node x="693.8750000000001" y="540.0">javax.servlet:javax.servlet-api:jar:3.1.0</node>
-            <node x="86.95687181122457" y="360.0">org.apache.shiro:shiro-core:jar:1.3.2</node>
-            <node x="17.568248221545673" y="280.0">org.apache.shiro:shiro-core:jar:1.3.2/org.slf4j:slf4j-api:jar:1.6.4</node>
-            <node x="115.56824822154567" y="280.0">org.apache.shiro:shiro-core:jar:1.3.2/commons-beanutils:commons-beanutils:jar:1.8.3</node>
-            <node x="0.0" y="440.0">org.apache.shiro:shiro-web:jar:1.3.2</node>
-            <node x="183.75" y="540.0">org.apache.shiro:shiro-ehcache:jar:1.3.2</node>
-            <node x="157.0" y="440.0">org.apache.shiro:shiro-ehcache:jar:1.3.2/net.sf.ehcache:ehcache-core:jar:2.5.3</node>
-            <node x="33.0" y="540.0">org.apache.shiro:shiro-spring:jar:1.3.2</node>
-            <node x="1947.5890815548792" y="540.0">com.google.collections:google-collections:jar:1.0</node>
-            <node x="1076.875" y="540.0">com.google.guava:guava:jar:19.0</node>
-            <node x="3904.9640815548787" y="540.0">org.projectlombok:lombok:jar:1.16.16</node>
-            <node x="2867.589081554879" y="540.0">javax.servlet.jsp:jsp-api:jar:2.2</node>
-            <node x="1008.8750000000001" y="540.0">jstl:jstl:jar:1.2</node>
-            <node x="1291.625" y="440.0">com.fasterxml.jackson.core:jackson-core:jar:2.8.3</node>
-            <node x="881.8750000000001" y="440.0">org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
-            <node x="1163.875" y="540.0">com.fasterxml.jackson.core:jackson-databind:jar:2.8.3</node>
-            <node x="1122.625" y="440.0">com.fasterxml.jackson.core:jackson-databind:jar:2.8.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
-            <node x="4001.9640815548787" y="540.0">com.fasterxml.jackson.core:jackson-annotations:jar:2.8.3</node>
-            <node x="1633.375" y="540.0">org.apache.shiro:shiro-quartz:jar:1.2.2</node>
-            <node x="1689.9224148882122" y="440.0">org.apache.shiro:shiro-quartz:jar:1.2.2/org.apache.shiro:shiro-core:jar:1.2.2</node>
-            <node x="1600.9224148882122" y="440.0">org.apache.shiro:shiro-quartz:jar:1.2.2/org.opensymphony.quartz:quartz:jar:1.6.1</node>
-            <node x="2107.589081554879" y="540.0">org.springframework:spring-context-support:jar:3.2.8.RELEASE</node>
-            <node x="2098.172414888212" y="440.0">org.springframework:spring-context-support:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE</node>
-            <node x="2309.719405254479" y="440.0">org.springframework:spring-context-support:jar:3.2.8.RELEASE/org.springframework:spring-context:jar:3.2.8.RELEASE</node>
-            <node x="1942.9224148882122" y="440.0">org.springframework:spring-context-support:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE</node>
-            <node x="4170.964081554879" y="540.0">net.sf.ehcache:ehcache-core:jar:2.6.11</node>
-            <node x="4186.964081554879" y="440.0">net.sf.ehcache:ehcache-core:jar:2.6.11/org.slf4j:slf4j-api:jar:1.6.1</node>
-            <node x="1458.375" y="540.0">commons-collections:commons-collections:jar:3.2.1</node>
-            <node x="2959.589081554879" y="540.0">org.springframework:spring-test:jar:3.2.4.RELEASE</node>
-            <node x="2957.089081554879" y="440.0">org.springframework:spring-test:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="javax.servlet:javax.servlet-api:jar:3.1.0">
-              <point x="-30.390243902439124" y="-15.0" />
-              <point x="2263.32916135204" y="730.0" />
-              <point x="756.3750000000001" y="730.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.7.7">
-              <point x="30.390243902439124" y="-15.0" />
-              <point x="2324.1096491569183" y="730.0" />
-              <point x="3606.464081554879" y="730.0" />
-              <point x="3606.464081554879" y="520.0" />
-              <point x="3452.9568718112246" y="520.0" />
-              <point x="19.5" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro:shiro-core:jar:1.3.2" target="org.apache.shiro:shiro-core:jar:1.3.2/org.slf4j:slf4j-api:jar:1.6.4">
-              <point x="-23.0" y="-15.0" />
-              <point x="109.95687181122457" y="340.0" />
-              <point x="56.56824822154567" y="340.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro:shiro-spring:jar:1.3.2" target="org.apache.shiro:shiro-core:jar:1.3.2">
-              <point x="25.75" y="-15.0" />
-              <point x="110.25" y="415.0" />
-              <point x="121.45687181122457" y="415.0" />
-              <point x="-11.5" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-context-support:jar:3.2.8.RELEASE" target="org.springframework:spring-context-support:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE">
-              <point x="0.0" y="-15.0" />
-              <point x="2191.089081554879" y="520.0" />
-              <point x="2152.672414888212" y="520.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.apache.shiro:shiro-spring:jar:1.3.2">
-              <point x="-41.24390243902462" y="-15.0" />
-              <point x="2252.4755028154545" y="780.0" />
-              <point x="84.5" y="780.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro:shiro-quartz:jar:1.2.2" target="org.apache.shiro:shiro-quartz:jar:1.2.2/org.apache.shiro:shiro-core:jar:1.2.2">
-              <point x="25.75" y="-15.0" />
-              <point x="1710.625" y="520.0" />
-              <point x="1735.9224148882122" y="520.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-webmvc:jar:4.3.2.RELEASE/org.springframework:spring-expression:jar:4.3.2.RELEASE" target="org.springframework:spring-aop:jar:4.3.2.RELEASE/org.springframework:spring-core:jar:4.3.2.RELEASE">
-              <point x="0.0" y="-15.0" />
-              <point x="380.375" y="140.0" />
-              <point x="541.5557147782911" y="140.0" />
-              <point x="-31.25" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.2.RELEASE" target="org.springframework:spring-beans:jar:4.3.2.RELEASE">
-              <point x="36.75" y="-15.0" />
-              <point x="806.2194052544793" y="415.0" />
-              <point x="819.8318718112246" y="415.0" />
-              <point x="819.8318718112246" y="250.0" />
-              <point x="853.0535714285714" y="250.0" />
-              <point x="-15.571428571428669" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.2.RELEASE" target="org.springframework:spring-aop:jar:4.3.2.RELEASE/org.springframework:spring-core:jar:4.3.2.RELEASE">
-              <point x="12.25" y="-15.0" />
-              <point x="781.7194052544793" y="415.0" />
-              <point x="774.9694052544793" y="415.0" />
-              <point x="774.9694052544793" y="160.0" />
-              <point x="579.0557147782911" y="160.0" />
-              <point x="6.25" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro:shiro-spring:jar:1.3.2" target="org.apache.shiro:shiro-web:jar:1.3.2">
-              <point x="-25.75" y="-15.0" />
-              <point x="58.75" y="520.0" />
-              <point x="67.5" y="520.0" />
-              <point x="22.5" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.2.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.2.RELEASE/org.springframework:spring-context:jar:4.3.2.RELEASE">
-              <point x="-36.75" y="-15.0" />
-              <point x="732.7194052544793" y="415.0" />
-              <point x="496.3182482215457" y="415.0" />
-              <point x="29.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.2.RELEASE" target="org.springframework:spring-aop:jar:4.3.2.RELEASE">
-              <point x="-12.25" y="-15.0" />
-              <point x="758.1569052544793" y="330.0" />
-              <point x="590.875" y="330.0" />
-              <point x="36.375" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-context-support:jar:3.2.8.RELEASE" target="org.springframework:spring-context-support:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE">
-              <point x="-55.66666666666663" y="-15.0" />
-              <point x="2135.422414888212" y="520.0" />
-              <point x="1992.9224148882122" y="520.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.apache.shiro:shiro-ehcache:jar:1.3.2">
-              <point x="-36.90243902439033" y="-15.0" />
-              <point x="2256.816966230089" y="760.0" />
-              <point x="240.25" y="760.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="com.google.guava:guava:jar:19.0">
-              <point x="-19.536585365853625" y="-15.0" />
-              <point x="2274.1828198886255" y="680.0" />
-              <point x="1110.375" y="680.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-webmvc:jar:4.3.2.RELEASE" target="org.springframework:spring-aop:jar:4.3.2.RELEASE/org.springframework:spring-core:jar:4.3.2.RELEASE">
-              <point x="-50.41666666666674" y="-15.0" />
-              <point x="562.9583333333333" y="520.0" />
-              <point x="301.375" y="520.0" />
-              <point x="301.375" y="130.0" />
-              <point x="529.0557147782911" y="130.0" />
-              <point x="-43.75" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="commons-io:commons-io:jar:2.4">
-              <point x="6.512195121951208" y="-15.0" />
-              <point x="2300.2316003764304" y="620.0" />
-              <point x="2622.089081554879" y="620.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.apache.shiro:shiro-quartz:jar:1.2.2">
-              <point x="-8.682926829268126" y="-15.0" />
-              <point x="2285.036478425211" y="630.0" />
-              <point x="1684.875" y="630.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.mybatis:mybatis-spring:jar:1.3.0">
-              <point x="32.56097560975604" y="-15.0" />
-              <point x="2326.280380864235" y="740.0" />
-              <point x="3676.464081554879" y="740.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="junit:junit:jar:4.0">
-              <point x="-13.024390243902417" y="-15.0" />
-              <point x="2280.6950150105768" y="650.0" />
-              <point x="1410.375" y="650.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-aop:jar:4.3.2.RELEASE/org.springframework:spring-core:jar:4.3.2.RELEASE" target="org.springframework:spring-aop:jar:4.3.2.RELEASE/org.springframework:spring-core:jar:4.3.2.RELEASE/commons-logging:commons-logging:jar:1.2">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="net.sf.ehcache:ehcache-core:jar:2.6.11" target="net.sf.ehcache:ehcache-core:jar:2.6.11/org.slf4j:slf4j-api:jar:1.6.1">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-core:jar:2.8.3">
-              <point x="-15.195121951219335" y="-15.0" />
-              <point x="2278.52428330326" y="660.0" />
-              <point x="1371.875" y="660.0" />
-              <point x="26.75" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="commons-collections:commons-collections:jar:3.2.1">
-              <point x="-10.853658536585499" y="-15.0" />
-              <point x="2282.8657467178937" y="640.0" />
-              <point x="1535.875" y="640.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.apache.shiro:shiro-web:jar:1.3.2">
-              <point x="-43.41463414634154" y="-15.0" />
-              <point x="2250.3047711081376" y="790.0" />
-              <point x="22.5" y="790.0" />
-              <point x="-22.5" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.springframework:spring-tx:jar:4.3.2.RELEASE">
-              <point x="19.536585365853625" y="-15.0" />
-              <point x="2313.255990620333" y="680.0" />
-              <point x="3213.589081554879" y="680.0" />
-              <point x="21.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-context-support:jar:3.2.8.RELEASE" target="org.springframework:spring-context-support:jar:3.2.8.RELEASE/org.springframework:spring-context:jar:3.2.8.RELEASE">
-              <point x="55.66666666666663" y="-15.0" />
-              <point x="2246.7557482215457" y="520.0" />
-              <point x="2367.719405254479" y="520.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-tx:jar:4.3.2.RELEASE" target="org.springframework:spring-beans:jar:4.3.2.RELEASE">
-              <point x="-21.0" y="-15.0" />
-              <point x="3171.589081554879" y="240.0" />
-              <point x="915.3392857142859" y="240.0" />
-              <point x="46.71428571428578" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-databind:jar:2.8.3">
-              <point x="-17.365853658536707" y="-15.0" />
-              <point x="2276.3535515959425" y="670.0" />
-              <point x="1230.375" y="670.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.slf4j:slf4j-log4j12:jar:1.7.7">
-              <point x="23.878048780487916" y="-15.0" />
-              <point x="2317.597454034967" y="700.0" />
-              <point x="3298.464081554879" y="700.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.springframework:spring-aop:jar:4.3.2.RELEASE">
-              <point x="-34.73170731707296" y="-15.0" />
-              <point x="2258.987697937406" y="750.0" />
-              <point x="538.8807482215457" y="750.0" />
-              <point x="538.8807482215457" y="340.0" />
-              <point x="542.375" y="340.0" />
-              <point x="-12.125" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro:shiro-ehcache:jar:1.3.2" target="org.apache.shiro:shiro-core:jar:1.3.2">
-              <point x="28.25" y="-15.0" />
-              <point x="268.5" y="520.0" />
-              <point x="277.5" y="520.0" />
-              <point x="277.5" y="415.0" />
-              <point x="167.45687181122457" y="415.0" />
-              <point x="34.5" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-beans:jar:4.3.2.RELEASE" target="org.springframework:spring-aop:jar:4.3.2.RELEASE/org.springframework:spring-core:jar:4.3.2.RELEASE">
-              <point x="0.0" y="-15.0" />
-              <point x="868.6250000000001" y="150.0" />
-              <point x="591.5557147782911" y="150.0" />
-              <point x="18.75" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.3.2.RELEASE">
-              <point x="-32.56097560975604" y="-15.0" />
-              <point x="2261.158429644723" y="740.0" />
-              <point x="613.375" y="740.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.springframework:spring-beans:jar:4.3.2.RELEASE">
-              <point x="4.3414634146342905" y="-15.0" />
-              <point x="2298.0608686691135" y="610.0" />
-              <point x="2559.089081554879" y="610.0" />
-              <point x="2559.089081554879" y="260.0" />
-              <point x="884.1964285714288" y="260.0" />
-              <point x="15.571428571428669" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-aop:jar:4.3.2.RELEASE" target="org.springframework:spring-aop:jar:4.3.2.RELEASE/org.springframework:spring-core:jar:4.3.2.RELEASE">
-              <point x="-24.25" y="-15.0" />
-              <point x="530.25" y="160.0" />
-              <point x="566.5557147782911" y="160.0" />
-              <point x="-6.25" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-webmvc:jar:4.3.2.RELEASE" target="org.springframework:spring-web:jar:4.3.2.RELEASE">
-              <point x="30.25" y="-15.0" />
-              <point x="643.625" y="510.0" />
-              <point x="744.9694052544793" y="510.0" />
-              <point x="-24.5" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="cglib:cglib:jar:3.2.4">
-              <point x="17.365853658536707" y="-15.0" />
-              <point x="2311.085258913016" y="670.0" />
-              <point x="3137.625" y="670.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13" target="org.codehaus.jackson:jackson-core-asl:jar:1.9.13">
-              <point x="0.0" y="-15.0" />
-              <point x="-32.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-test:jar:3.2.4.RELEASE" target="org.springframework:spring-test:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.aspectj:aspectjweaver:jar:1.6.11">
-              <point x="43.41463414634154" y="-15.0" />
-              <point x="2337.1340394008207" y="790.0" />
-              <point x="4357.964081554879" y="790.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.springframework:spring-web:jar:4.3.2.RELEASE">
-              <point x="-28.21951219512175" y="-15.0" />
-              <point x="2265.4998930593574" y="720.0" />
-              <point x="829.3750000000001" y="720.0" />
-              <point x="829.3750000000001" y="510.0" />
-              <point x="793.9694052544793" y="510.0" />
-              <point x="24.5" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro:shiro-quartz:jar:1.2.2" target="org.apache.shiro:shiro-quartz:jar:1.2.2/org.opensymphony.quartz:quartz:jar:1.6.1">
-              <point x="-25.75" y="-15.0" />
-              <point x="1659.125" y="520.0" />
-              <point x="1635.4224148882122" y="520.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="net.sf.ehcache:ehcache-core:jar:2.6.11">
-              <point x="41.24390243902462" y="-15.0" />
-              <point x="2334.963307693504" y="780.0" />
-              <point x="4225.964081554879" y="780.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="javax.servlet.jsp:jsp-api:jar:2.2">
-              <point x="13.024390243902417" y="-15.0" />
-              <point x="2306.7437954983816" y="650.0" />
-              <point x="2903.589081554879" y="650.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-webmvc:jar:4.3.2.RELEASE/org.springframework:spring-context:jar:4.3.2.RELEASE" target="org.springframework:spring-aop:jar:4.3.2.RELEASE/org.springframework:spring-core:jar:4.3.2.RELEASE">
-              <point x="-14.5" y="-15.0" />
-              <point x="452.8182482215457" y="340.0" />
-              <point x="459.375" y="340.0" />
-              <point x="459.375" y="150.0" />
-              <point x="554.0557147782911" y="150.0" />
-              <point x="-18.75" y="15.0" />
-            </edge>
-            <edge source="commons-fileupload:commons-fileupload:jar:1.3.1" target="commons-fileupload:commons-fileupload:jar:1.3.1/commons-io:commons-io:jar:2.2">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.apache.shiro:shiro-core:jar:1.3.2">
-              <point x="-39.07317073170725" y="-15.0" />
-              <point x="2254.646234522772" y="770.0" />
-              <point x="146.5" y="770.0" />
-              <point x="146.5" y="415.0" />
-              <point x="144.45687181122457" y="415.0" />
-              <point x="11.5" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-webmvc:jar:4.3.2.RELEASE/org.springframework:spring-context:jar:4.3.2.RELEASE" target="org.springframework:spring-aop:jar:4.3.2.RELEASE">
-              <point x="43.5" y="-15.0" />
-              <point x="510.8182482215457" y="340.0" />
-              <point x="518.125" y="340.0" />
-              <point x="-36.375" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.16">
-              <point x="36.90243902439033" y="-15.0" />
-              <point x="2330.6218442788695" y="760.0" />
-              <point x="3943.4640815548787" y="760.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-aop:jar:4.3.2.RELEASE" target="org.springframework:spring-beans:jar:4.3.2.RELEASE">
-              <point x="24.25" y="-15.0" />
-              <point x="578.75" y="240.0" />
-              <point x="837.482142857143" y="240.0" />
-              <point x="-31.14285714285711" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-webmvc:jar:4.3.2.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.2.RELEASE/org.springframework:spring-context:jar:4.3.2.RELEASE">
-              <point x="-10.083333333333258" y="-15.0" />
-              <point x="603.2916666666667" y="500.0" />
-              <point x="438.3182482215457" y="500.0" />
-              <point x="-29.0" y="15.0" />
-            </edge>
-            <edge source="cglib:cglib:jar:3.2.4/org.apache.ant:ant:jar:1.9.6" target="cglib:cglib:jar:3.2.4/org.apache.ant:ant:jar:1.9.6/org.apache.ant:ant-launcher:jar:1.9.6">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="commons-dbcp:commons-dbcp:jar:1.4">
-              <point x="-6.512195121951208" y="-15.0" />
-              <point x="2287.207210132528" y="620.0" />
-              <point x="1862.4224148882122" y="620.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-webmvc:jar:4.3.2.RELEASE/org.springframework:spring-context:jar:4.3.2.RELEASE" target="org.springframework:spring-beans:jar:4.3.2.RELEASE">
-              <point x="14.5" y="-15.0" />
-              <point x="481.8182482215457" y="340.0" />
-              <point x="470.375" y="340.0" />
-              <point x="470.375" y="230.0" />
-              <point x="821.9107142857143" y="230.0" />
-              <point x="-46.71428571428578" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.codehaus.jackson:jackson-core-asl:jar:1.9.13">
-              <point x="-23.878048780487916" y="-15.0" />
-              <point x="2269.8413564739913" y="700.0" />
-              <point x="998.3750000000001" y="700.0" />
-              <point x="998.3750000000001" y="520.0" />
-              <point x="977.8750000000001" y="520.0" />
-              <point x="32.0" y="15.0" />
-            </edge>
-            <edge source="commons-dbcp:commons-dbcp:jar:1.4" target="commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.5.4">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-tx:jar:4.3.2.RELEASE" target="org.springframework:spring-aop:jar:4.3.2.RELEASE/org.springframework:spring-core:jar:4.3.2.RELEASE">
-              <point x="21.0" y="-15.0" />
-              <point x="3213.589081554879" y="130.0" />
-              <point x="616.5557147782911" y="130.0" />
-              <point x="43.75" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-annotations:jar:2.8.3">
-              <point x="39.07317073170725" y="-15.0" />
-              <point x="2332.7925759861864" y="770.0" />
-              <point x="4076.4640815548787" y="770.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro:shiro-ehcache:jar:1.3.2" target="org.apache.shiro:shiro-ehcache:jar:1.3.2/net.sf.ehcache:ehcache-core:jar:2.5.3">
-              <point x="-28.25" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="com.google.collections:google-collections:jar:1.0">
-              <point x="-4.3414634146342905" y="-15.0" />
-              <point x="2289.377941839845" y="610.0" />
-              <point x="2017.5890815548792" y="610.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.mybatis:mybatis:jar:3.4.2">
-              <point x="0.0" y="-15.0" />
-              <point x="2293.719405254479" y="590.0" />
-              <point x="2333.089081554879" y="590.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.springframework:spring-test:jar:3.2.4.RELEASE">
-              <point x="15.195121951219335" y="-15.0" />
-              <point x="2308.9145272056985" y="660.0" />
-              <point x="3007.089081554879" y="660.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-webmvc:jar:4.3.2.RELEASE" target="org.springframework:spring-aop:jar:4.3.2.RELEASE">
-              <point x="10.083333333333258" y="-15.0" />
-              <point x="623.4583333333333" y="490.0" />
-              <point x="588.0527385878124" y="490.0" />
-              <point x="588.0527385878124" y="340.0" />
-              <point x="566.625" y="340.0" />
-              <point x="12.125" y="15.0" />
-            </edge>
-            <edge source="org.slf4j:slf4j-log4j12:jar:1.7.7" target="log4j:log4j:jar:1.2.17">
-              <point x="-25.75" y="-15.0" />
-              <point x="3272.714081554879" y="520.0" />
-              <point x="3269.839081554879" y="520.0" />
-              <point x="15.25" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13">
-              <point x="-26.048780487804834" y="-15.0" />
-              <point x="2267.6706247666743" y="710.0" />
-              <point x="913.8750000000001" y="710.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="com.alibaba:fastjson:jar:1.1.41">
-              <point x="28.21951219512175" y="-15.0" />
-              <point x="2321.938917449601" y="720.0" />
-              <point x="3557.464081554879" y="720.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="commons-fileupload:commons-fileupload:jar:1.3.1">
-              <point x="8.682926829268126" y="-15.0" />
-              <point x="2302.4023320837473" y="630.0" />
-              <point x="2770.589081554879" y="630.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-jdbc:jar:4.3.2.RELEASE" target="org.springframework:spring-aop:jar:4.3.2.RELEASE/org.springframework:spring-core:jar:4.3.2.RELEASE">
-              <point x="0.0" y="-15.0" />
-              <point x="2857.089081554879" y="340.0" />
-              <point x="2853.576548111624" y="340.0" />
-              <point x="2853.576548111624" y="140.0" />
-              <point x="604.0557147782911" y="140.0" />
-              <point x="31.25" y="15.0" />
-            </edge>
-            <edge source="com.fasterxml.jackson.core:jackson-databind:jar:2.8.3" target="com.fasterxml.jackson.core:jackson-databind:jar:2.8.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0">
-              <point x="-33.25" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-webmvc:jar:4.3.2.RELEASE" target="org.springframework:spring-beans:jar:4.3.2.RELEASE">
-              <point x="50.41666666666674" y="-15.0" />
-              <point x="663.7916666666667" y="520.0" />
-              <point x="842.7194052544793" y="520.0" />
-              <point x="842.7194052544793" y="260.0" />
-              <point x="868.6250000000001" y="260.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro:shiro-core:jar:1.3.2" target="org.apache.shiro:shiro-core:jar:1.3.2/commons-beanutils:commons-beanutils:jar:1.8.3">
-              <point x="23.0" y="-15.0" />
-              <point x="155.95687181122457" y="340.0" />
-              <point x="188.56824822154567" y="340.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="cglib:cglib:jar:3.2.4" target="cglib:cglib:jar:3.2.4/org.ow2.asm:asm:jar:5.1">
-              <point x="15.0" y="-15.0" />
-              <point x="3152.625" y="520.0" />
-              <point x="3175.089081554879" y="520.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="log4j:log4j:jar:1.2.17">
-              <point x="21.707317073170543" y="-15.0" />
-              <point x="2315.4267223276497" y="690.0" />
-              <point x="3236.464081554879" y="690.0" />
-              <point x="3236.464081554879" y="520.0" />
-              <point x="3239.339081554879" y="520.0" />
-              <point x="-15.25" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.springframework:spring-context-support:jar:3.2.8.RELEASE">
-              <point x="-2.170731707316918" y="-15.0" />
-              <point x="2291.5486735471623" y="600.0" />
-              <point x="2191.089081554879" y="600.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-webmvc:jar:4.3.2.RELEASE/org.springframework:spring-context:jar:4.3.2.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.2.RELEASE/org.springframework:spring-expression:jar:4.3.2.RELEASE">
-              <point x="-43.5" y="-15.0" />
-              <point x="423.8182482215457" y="340.0" />
-              <point x="414.625" y="340.0" />
-              <point x="34.25" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro:shiro-web:jar:1.3.2" target="org.apache.shiro:shiro-core:jar:1.3.2">
-              <point x="0.0" y="-15.0" />
-              <point x="45.0" y="415.0" />
-              <point x="98.45687181122457" y="415.0" />
-              <point x="-34.5" y="15.0" />
-            </edge>
-            <edge source="com.fasterxml.jackson.core:jackson-databind:jar:2.8.3" target="com.fasterxml.jackson.core:jackson-core:jar:2.8.3">
-              <point x="33.25" y="-15.0" />
-              <point x="1263.625" y="520.0" />
-              <point x="1318.375" y="520.0" />
-              <point x="-26.75" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.3.2.RELEASE">
-              <point x="10.853658536585499" y="-15.0" />
-              <point x="2304.5730637910647" y="640.0" />
-              <point x="2857.089081554879" y="640.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="commons-codec:commons-codec:jar:1.9">
-              <point x="26.048780487804834" y="-15.0" />
-              <point x="2319.768185742284" y="710.0" />
-              <point x="3434.464081554879" y="710.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.slf4j:slf4j-log4j12:jar:1.7.7" target="org.slf4j:slf4j-api:jar:1.7.7">
-              <point x="25.75" y="-15.0" />
-              <point x="3324.214081554879" y="520.0" />
-              <point x="3413.9568718112246" y="520.0" />
-              <point x="-19.5" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-jdbc:jar:4.3.2.RELEASE" target="org.springframework:spring-tx:jar:4.3.2.RELEASE">
-              <point x="33.0" y="-15.0" />
-              <point x="2890.089081554879" y="340.0" />
-              <point x="3171.589081554879" y="340.0" />
-              <point x="-21.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-jdbc:jar:4.3.2.RELEASE" target="org.springframework:spring-beans:jar:4.3.2.RELEASE">
-              <point x="-33.0" y="-15.0" />
-              <point x="2824.089081554879" y="340.0" />
-              <point x="2782.242381937532" y="340.0" />
-              <point x="2782.242381937532" y="250.0" />
-              <point x="899.7678571428572" y="250.0" />
-              <point x="31.14285714285711" y="15.0" />
-            </edge>
-            <edge source="org.springframework:spring-webmvc:jar:4.3.2.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.2.RELEASE/org.springframework:spring-expression:jar:4.3.2.RELEASE">
-              <point x="-30.25" y="-15.0" />
-              <point x="583.125" y="510.0" />
-              <point x="346.125" y="510.0" />
-              <point x="-34.25" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="org.mybatis:mybatis-ehcache:jar:1.0.0">
-              <point x="34.73170731707296" y="-15.0" />
-              <point x="2328.451112571552" y="750.0" />
-              <point x="3820.4640815548787" y="750.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="cglib:cglib:jar:3.2.4" target="cglib:cglib:jar:3.2.4/org.apache.ant:ant:jar:1.9.6">
-              <point x="-15.0" y="-15.0" />
-              <point x="3122.625" y="520.0" />
-              <point x="3102.089081554879" y="520.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.18">
-              <point x="2.170731707316918" y="-15.0" />
-              <point x="2295.890136961796" y="600.0" />
-              <point x="2470.089081554879" y="600.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.czs:ssm_shiro:0.0.1-SNAPSHOT" target="jstl:jstl:jar:1.2">
-              <point x="-21.707317073170543" y="-15.0" />
-              <point x="2272.0120881813086" y="690.0" />
-              <point x="1032.875" y="690.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.mybatis:mybatis-ehcache:jar:1.0.0" target="org.mybatis:mybatis-ehcache:jar:1.0.0/net.sf.ehcache:ehcache-core:jar:2.0.0">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="3532.0" y="503.0" />
-          <SelectedNodes>
-            <node>org.springframework:spring-web:jar:4.3.2.RELEASE</node>
-            <node>com.czs:ssm_shiro:0.0.1-SNAPSHOT</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE.jar!/org/springframework/web/servlet/mvc/Controller.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="108" column="22" lean-forward="false" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authc/UsernamePasswordToken.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Hierarchy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Category.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Priority.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/Log4jLoggerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/util/ThreadContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/SecurityUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE-sources.jar!/org/springframework/aop/support/AopUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="737" column="0" lean-forward="false" selection-start-line="737" selection-start-column="0" selection-end-line="737" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="253" column="103" lean-forward="false" selection-start-line="253" selection-start-column="103" selection-end-line="253" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-core/4.3.2.RELEASE/spring-core-4.3.2.RELEASE.jar!/org/springframework/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="213" column="0" lean-forward="false" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-web/4.3.2.RELEASE/spring-web-4.3.2.RELEASE-sources.jar!/org/springframework/web/context/request/async/WebAsyncUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/service/impl/RoleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <caret line="36" column="64" lean-forward="true" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/workplace/projectDependents/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/org/apache/commons/logging/impl/Log4JLogger.class">
+    <entry file="jar://D:/workplace/projectDependents/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/realm/AuthorizingRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE-sources.jar!/org/springframework/web/servlet/handler/AbstractHandlerMethodMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="325" column="0" lean-forward="false" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE-sources.jar!/org/springframework/web/servlet/handler/AbstractHandlerMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="370" column="0" lean-forward="false" selection-start-line="370" selection-start-column="0" selection-end-line="370" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerExecutionChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12937">
-          <caret line="847" column="0" lean-forward="false" selection-start-line="847" selection-start-column="0" selection-end-line="847" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/subject/support/SubjectCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/subject/support/DelegatingSubject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4199">
-          <caret line="290" column="0" lean-forward="false" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/servlet/AbstractShiroFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5712">
-          <caret line="385" column="0" lean-forward="false" selection-start-line="385" selection-start-column="0" selection-end-line="385" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/servlet/OncePerRequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-web/4.3.2.RELEASE/spring-web-4.3.2.RELEASE-sources.jar!/org/springframework/web/filter/DelegatingFilterProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3842">
-          <caret line="262" column="0" lean-forward="false" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-web/4.3.2.RELEASE/spring-web-4.3.2.RELEASE-sources.jar!/org/springframework/web/filter/CharacterEncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2805">
-          <caret line="197" column="0" lean-forward="false" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-web/4.3.2.RELEASE/spring-web-4.3.2.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        <state relative-caret-position="158">
+          <caret line="573" column="0" lean-forward="false" selection-start-line="573" selection-start-column="0" selection-end-line="573" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14926">
-          <caret line="939" column="17" lean-forward="false" selection-start-line="939" selection-start-column="17" selection-end-line="939" selection-end-column="17" />
+        <state relative-caret-position="141">
+          <caret line="997" column="0" lean-forward="false" selection-start-line="997" selection-start-column="0" selection-end-line="997" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/AbstractController.java">
+    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="100" column="50" lean-forward="false" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
+        <state relative-caret-position="172">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="749" column="0" lean-forward="false" selection-start-line="749" selection-start-column="0" selection-end-line="749" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workplace/projectDependents/org/springframework/spring-web/4.3.2.RELEASE/spring-web-4.3.2.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="138" column="9" lean-forward="true" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workplace/projectDependents/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/mgt/AuthorizingSecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workplace/projectDependents/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/subject/support/DelegatingSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="223" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workplace/projectDependents/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authz/ModularRealmAuthorizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="374" column="0" lean-forward="false" selection-start-line="374" selection-start-column="0" selection-end-line="374" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="92" column="74" lean-forward="false" selection-start-line="92" selection-start-column="74" selection-end-line="92" selection-end-column="74" />
+        <state relative-caret-position="1433">
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationMVC.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/enums/UserTypeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/util/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/realm/UserRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/czs/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="123">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding>
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#1998#2006#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/dataAjax.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springShiro.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="3200" column="57" lean-forward="false" selection-start-line="3200" selection-start-column="57" selection-end-line="3200" selection-end-column="57" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="236">
+          <caret line="137" column="55" lean-forward="true" selection-start-line="137" selection-start-column="55" selection-end-line="137" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>

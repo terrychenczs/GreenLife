@@ -33,7 +33,7 @@
     </bean>  
     <!-- Realm实现 -->  
     <bean id="userRealm" class="com.czs.realm.UserRealm">  
-        <!-- <property name="userService" ref="userService" /> -->  
+        <!--<property name="userService" ref="userService" />  -->
         <property name="credentialsMatcher" ref="credentialsMatcher" />  
         <property name="cachingEnabled" value="true" />  
         <property name="authenticationCachingEnabled" value="true" />  
@@ -97,8 +97,8 @@
         <property name="cacheManager" ref="cacheManager" />  
         <property name="sessionManager" ref="sessionManager" />  
         <property name="kickoutAfter" value="false" />  
-        <property name="maxSession" value="2" />  
-        <property name="kickoutUrl" value="/login?kickout=1" />  
+        <property name="maxSession" value="1" />
+        <property name="kickoutUrl" value="/login?kickout=1" />
     </bean>  
     <!-- 相当于调用SecurityUtils.setSecurityManager(securityManager) -->  
     <bean class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
@@ -119,13 +119,13 @@
     <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">  
         <property name="securityManager" ref="securityManager" />  
         <property name="loginUrl" value="/login" />  
-        <property name="successUrl" value="/index" />
+        <!--<property name="successUrl" value="/index" />-->
         <property name="unauthorizedUrl" value="/unauthorized" />  
         <property name="filters">  
-            <util:map>  
+            <map>
                 <entry key="authc" value-ref="formAuthenticationFilter" />  
                 <entry key="kickout" value-ref="kickoutSessionControlFilter"/>  
-            </util:map>  
+            </map>
         </property>  
         <property name="filterChainDefinitions">  
             <value>  
@@ -133,9 +133,10 @@
                 /unauthorized = anon  
                 /login = anon
                 /logout = logout  
-                /admin/**=user,kickout
-                /admin/index.jsp = authc
-                /admin/dataAjax.jsp = authc
+                <!--/admin/**= user-->
+                /admin/index = kickout,authc,roles[ordinary]
+                /admin/dataAjax = authc,roles[ordinary]
+
             </value>  
         </property>  
     </bean>  

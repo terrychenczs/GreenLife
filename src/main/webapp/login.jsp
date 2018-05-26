@@ -17,22 +17,12 @@
     <meta name="description" content="Latest updates and statistic charts">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--begin::Web font -->
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
-    <script>
-        WebFont.load({
-            google: {"families":["Poppins:300,400,500,600,700","Roboto:300,400,500,600,700"]},
-            active: function() {
-                sessionStorage.fonts = true;
-            }
-        });
-    </script>
-    <!--end::Web font -->
     <!--begin::Base Styles -->
     <link href="${pageContext.request.contextPath}/assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
     <link href="${pageContext.request.contextPath}/assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />
     <!--end::Base Styles -->
     <link rel="shortcut icon" href="${pageContext.request.contextPath}/assets/demo/default/media/img/logo/favicon.ico" />
+
 </head>
 <!-- end::Head -->
 <!-- end::Body -->
@@ -40,6 +30,7 @@
 <!-- begin:: Page -->
 <div class="m-grid m-grid--hor m-grid--root m-page">
     <div class="m-grid__item m-grid__item--fluid m-grid m-grid--hor m-login m-login--signin m-login--2 m-login-2--skin-3" id="m_login" style="background-image: url(${pageContext.request.contextPath}/assets/app/media/img//bg/bg-2.jpg);">
+        <div id="alert"></div>
         <div class="m-grid__item m-grid__item--fluid	m-login__wrapper">
             <div class="m-login__container">
                 <div class="m-login__logo">
@@ -55,7 +46,7 @@
                     </div>
                     <form class="m-login__form m-form" id="Userlogin" action="${pageContext.request.contextPath}/loginTest" method="post">
                         <div class="form-group m-form__group">
-                            <input class="form-control m-input"   type="text" placeholder="邮箱/账号/手机号" name="username" autocomplete="off">
+                            <input class="form-control m-input"   type="text" placeholder="用户名" name="username" autocomplete="off">
                         </div>
                         <div class="form-group m-form__group">
                             <input class="form-control m-input m-login__form-input--last" type="password" placeholder="密码" name="password">
@@ -173,10 +164,12 @@
                         注册
                     </a>
                 </div>
+
             </div>
         </div>
     </div>
 </div>
+
 <!-- end:: Page -->
 <!--begin::Base Scripts -->
 <script src="${pageContext.request.contextPath}/assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>

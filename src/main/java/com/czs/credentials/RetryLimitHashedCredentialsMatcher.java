@@ -17,14 +17,15 @@ import org.apache.shiro.util.ByteSource;
   
 /** 
  * <p> 
- * User: Zhang Kaitao 
+ * User: terrychen
  * <p> 
- * Date: 14-1-28 
+ * Date: 18-1-28
  * <p> 
- * Version: 1.0 
+ * Version: 1.0
+ * <p>
+ * function:
  */  
-public class RetryLimitHashedCredentialsMatcher extends  
-        HashedCredentialsMatcher {  
+public class RetryLimitHashedCredentialsMatcher extends HashedCredentialsMatcher {
     //AtomicInteger是一个提供原子操作的Integer类，通过线程安全的方式操作加减。  
     private Cache<String, AtomicInteger> passwordRetryCache;  
   

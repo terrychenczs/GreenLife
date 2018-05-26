@@ -2,7 +2,7 @@
 var SnippetLogin = function () {
     var urlpath = "/ssm_shiro";
     var login = $('#m_login');
-
+    var alertId = $('#alert');
     var showErrorMsg = function (form, type, msg) {
         var alert = $('<div class="m-alert m-alert--outline alert alert-' + type + ' alert-dismissible" role="alert">\
 			<button type="button" class="close" data-dismiss="alert" aria-label="Close"></button>\
@@ -100,8 +100,8 @@ var SnippetLogin = function () {
 
                     if (msg.code == 1) {
                         showErrorMsg(form, 'success', msg.msg);
-                        var url = msg.items[0].pid;
-                        window.open(url,"_self");
+                         var url = msg.path;
+                         window.open(url,"_self");
                     }else {
                         showErrorMsg(form, 'danger', msg.msg);
                     }
@@ -299,17 +299,41 @@ var SnippetLogin = function () {
                });
            });
        }*/
-    /*    var loginTest = function () {
+       var loginTest = function () {
             $("#m_login_forget_password_submit").click(function () {
                 if ($("#userName").val() == null || $("#userName").val() == '') {
                     alert("请输入用户名！");
                 } else if ($("#pwd").val() == null || $("#pwd").val() == "") {
                     alert("密码不能为空！");
                 } else {
-                    document.getElementById("form").submit();
+                    $("#form").submit();
                 }
             })
-        }*/
+        }
+
+        // 账户重复登录提示框
+        function alertMsg() {
+            var alertTest = '<div class="m-alert__text"><strong>警告!</strong> 您的账号在另一台设备上登录，若不是您本人操作，请立即修改密码</div>';
+            alertId.append(alertTest);
+            alertId.addClass('m-alert m-alert--icon alert alert-danger').attr('relo','alert');
+            alertId.css({'position':'fixed','top':'50%','left':'50%','margin':'-250px 0 0 -246px','z-index':'999'});
+        };
+
+       //隐藏提示框
+       function alertEmpty() {
+           //alertId.empty();
+           //alertId.css('display','none')
+           alertId.fadeOut(300);
+       }
+        var kickout = function () {
+            var href = location.href;
+            if (href.indexOf('kickout') > 0){
+                alertMsg();
+                setTimeout(alertEmpty,2000);
+
+                //alert('您的账号在另一台设备上登录，您被挤下线，若不是您本人操作，请立即修改密码！');
+            }
+        }
 
     //== Public Functions
     return {
@@ -320,6 +344,7 @@ var SnippetLogin = function () {
             handleSignUpFormSubmit();
             //handleForgetPasswordFormSubmit();
             //loginTest();
+            kickout();
         }
     };
 }();

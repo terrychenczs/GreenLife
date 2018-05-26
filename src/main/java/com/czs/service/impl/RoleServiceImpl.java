@@ -1,5 +1,7 @@
 package com.czs.service.impl;
 
+import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import com.czs.dao.mapper.SysRoleMapper;
@@ -32,9 +34,11 @@ public class RoleServiceImpl implements RoleService {
     }
 
     @Override
-    public Set<String> loadRoleIdByUsername(String username) {
+    public List<SysRole> loadRoleIdByUsername(String username) {
         // TODO Auto-generated method stub
-        return roleMapper.loadRoleIdByUsername(username);
+
+       List<SysRole> userRoleList = sysRoleMapper.loadRoleIdByUsername(username);
+        return userRoleList;
     }
 
     @Override

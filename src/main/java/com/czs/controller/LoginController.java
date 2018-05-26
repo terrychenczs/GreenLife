@@ -5,7 +5,8 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.czs.dao.mapper.SysRoleMapper;
+
+import com.czs.enums.UserTypeEnum;
 import com.czs.pojo.SysRole;
 import com.czs.service.RoleService;
 import com.czs.util.jsonUtil.Entity.ListObject;
@@ -21,6 +22,7 @@ import org.apache.shiro.authc.UnknownAccountException;
 import org.apache.shiro.authc.UsernamePasswordToken;  
 import org.apache.shiro.subject.Subject;  
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.czs.service.UserService;
@@ -71,15 +73,15 @@ public class LoginController {
     * @throws  
     */  
     @RequestMapping(value = "/loginTest")  
-    public void login(HttpServletRequest request, HttpServletResponse response, String username, String password, boolean rememberMe) {
+    public void login(HttpServletRequest request,  HttpServletResponse response,Model model, String username, String password, boolean rememberMe) {
         System.out.println("rememberMe:"+rememberMe);  
         //将form中的用户名密码传入Realm 的doGetAuthenticationInfo  
         UsernamePasswordToken token = new UsernamePasswordToken(username, password.toCharArray());  
         token.setRememberMe(rememberMe);  
         Subject currentUser = SecurityUtils.getSubject();
-        List<SysRole> roleList = new ArrayList<SysRole>();
-        SysRole sysRole = roleService.getRoleByUser(username);
-        roleList.add(sysRole);
+        //List<SysRole> roleList = new ArrayList<SysRole>();
+        //SysRole sysRole = roleService.getRoleByUser(username);
+        //String error = "";
         try {  
             currentUser.login(token);
         } catch (UnknownAccountException ex) {// 用户名没有找到
@@ -87,34 +89,44 @@ public class LoginController {
             listObject.setCode(StatusCode.USER_NOT_EXIST);
             listObject.setMsg("您输入的用户名不存在！");
             ResponseUtils.renderJson(response, JsonUtils.toJson(listObject));
-            return;
         } catch (IncorrectCredentialsException ex) {// 用户名密码不匹配
             ListObject listObject = new ListObject();
             listObject.setCode(StatusCode.USERNAME_AND_PASSWORD_MISMATCH);
             listObject.setMsg("用户名密码不匹配 ！");
             ResponseUtils.renderJson(response, JsonUtils.toJson(listObject));
-            return;
         } catch(ExcessiveAttemptsException e){
             ListObject listObject = new ListObject();
             listObject.setCode(StatusCode.USERNAME_LOCKED);
             listObject.setMsg("密码错误次数已超五次，账号锁定1小时！");
-            ResponseUtils.renderJson(response, JsonUtils.toJson(listObject));
-            return;
+           ResponseUtils.renderJson(response, JsonUtils.toJson(listObject));
         } catch (AuthenticationException ex) {// 其他的登录错误
             ListObject listObject = new ListObject();
             listObject.setCode(StatusCode.CODE_ERROR_PROGRAM);
             listObject.setMsg("其他的登录错误  ！");
-            ResponseUtils.renderJson(response, JsonUtils.toJson(listObject));
+           ResponseUtils.renderJson(response, JsonUtils.toJson(listObject));
             ex.printStackTrace();
-            return;
         }  
         // 验证是否成功登录的方法
         if (currentUser.isAuthenticated()) {
             ListObject listObject = new ListObject();
             listObject.setCode(StatusCode.CODE_SUCCESS);
             listObject.setMsg(StatusMsg.CODE_SUCCESS);
-            listObject.setItems(roleList);
+            //判断当前登录用户的类型
+            if (currentUser.hasRole(UserTypeEnum.ADMIN_USER)){
+                listObject.setPath(UserTypeEnum.ADMIN_PATH);
+                //return "redirect:/admin/index";
+            }
+            if (currentUser.hasRole(UserTypeEnum.ORDINARY_USER)){
+                listObject.setPath(UserTypeEnum.ORDINARY_PATH);
+                //return "redirect:/admin/dataAjax";
+            }
+//            else{
+//                listObject.setPath("lonin");
+//            }
+            //roleList.add(sysRole);
+            //listObject.setItems(roleList);
             ResponseUtils.renderJson(response, JsonUtils.toJson(listObject));
+
             //return "redirect:/admin/index";
         }
 //        else {
@@ -122,8 +134,5 @@ public class LoginController {
 //            currentUser.logout();
 //            return "login";
 //        }
-  
-    }  
-      
-      
+    }
 } 

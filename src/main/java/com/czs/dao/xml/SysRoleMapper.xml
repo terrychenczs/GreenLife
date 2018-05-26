@@ -126,4 +126,17 @@
       remark = #{remark,jdbcType=VARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
+
+    <insert id="save" parameterType="com.czs.pojo.SysRole" useGeneratedKeys="true" keyProperty="id">
+        insert into sys_role(id,name,description,state,code,pid,remark) values
+        (#{id},#{name},#{description},#{state},#{code},#{pid},#{remark})
+        <selectKey resultType="java.lang.Long" order="AFTER" keyProperty="id">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+    </insert>
+    <select id="loadRoleIdByUsername" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select sr.name
+        from sys_role sr,sys_user su,sys_user_role sur
+        WHERE su.username=#{username} and su.id=sur.user_id and sr.id=sur.role_id
+    </select>
 </mapper>

@@ -17,6 +17,6 @@ import com.czs.pojo.SysUser;
 */
 public interface RoleService {
 	public void save(Role  role);
-	public Set<String> loadRoleIdByUsername(String username);
+	public List<SysRole> loadRoleIdByUsername(String username);
 	public SysRole getRoleByUser(String username);
 }
